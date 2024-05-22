@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #F3EBE4;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#img {
+    background: url(../imagens/image-product-mobile.jpg) no-repeat;
+    width: 50vw;
+    height: 69vh;
+    margin: auto;
+    border-radius: 10px;
+}
+
+section#informacoes {
+    background-color: white;
+    width: 50vw;
+    height: 55vh;
+    margin: auto;
+    border-radius: 10px;
+}
